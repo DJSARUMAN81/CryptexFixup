@@ -229,6 +229,9 @@
 		CEDE8CDC22984C0800C73034 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = Khronokernel;
 				TargetAttributes = {
@@ -420,9 +423,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEVELOPMENT_TEAM = EAJ8338SJ7;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"MODULE_VERSION=$(MODULE_VERSION)",
@@ -446,9 +451,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEVELOPMENT_TEAM = EAJ8338SJ7;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"MODULE_VERSION=$(MODULE_VERSION)",
